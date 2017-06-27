@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+
+
+<Button
+android:id="@+id/main_btn_get"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="get方法" />
+
+    <Button
+        android:id="@+id/main_btn_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post方法" />
+
+    <Button
+        android:id="@+id/main_btn_up_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post方法上传文件" />
+    <Button
+        android:id="@+id/main_btn_up_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态改变url" />
+    <Button
+        android:id="@+id/main_btn_get_String"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetString" />
+    <Button
+        android:id="@+id/main_btn_post_String"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PostString" />
+    <Button
+        android:id="@+id/main_btn_get_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get下载" />
+</LinearLayout >
